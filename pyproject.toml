@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "r2d2"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Brooks", "Logan Walls <2934282+LoganWalls@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typed-argument-parser = "^1.7.0"
+pybullet = "^3.1.7"
+sweep-logger = {git = "https://github.com/ethanabrooks/sweep-logger.git", rev = "main"}
+ansicolors = "^1.1.8"
+art = "^5.4"
+DI-engine = "^0.2.3"
+
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.25.0"
+ipdb = "^0.13.9"
+pre-commit = "^2.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
